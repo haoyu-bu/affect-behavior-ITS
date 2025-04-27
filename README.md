@@ -49,11 +49,11 @@ To train the early prediction model, run the following:
 ```bash
 python train_early.py SECONDS NCLASS ATTN
 ```
-SECONDS specifies the data used for the prediction.
+SECONDS specifies the data used for the prediction (5, 10, 15, 20).
 
-NCLASS specifies the number of classes.
+NCLASS specifies the number of classes (2 or 7).
 
-ATTN specifies whether to use attention-based fusion method.
+ATTN specifies whether to use attention-based fusion method (True or False).
 
 ## Citation
 
